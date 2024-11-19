@@ -7,6 +7,6 @@ st.header("🍔Website Developing using Python🍿")
 st.image('./img/1.jpg')
 st.subheader("Thanawat Jibsamarnboon")
 
-dt=pd.read_csv('./data/iris-3csv')
-st.header()
+dt=pd.read_csv('./data/iris-3.csv')
+st.header(ข้อมูลเกม)
 st.write(dt.head(10))
